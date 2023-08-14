@@ -1,0 +1,11 @@
+l=[]
+l.append(20)
+l.append(30)
+l.append(40)
+l.append(50)
+l.append(60)
+l.insert(50,80)
+l.insert(-10,-80)
+print(l)
+print(l.index(80))
+print(l.index(-80))
